@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.google-header{
+    width: 100%;
+    max-height: 500px;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.google-header img{
+    max-width: 100%;
+    border-radius: 50%;
+
+} 
+.gmail-img{
+    border-radius: 50%;
+    width: 35px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.header-icons {
+    float: right;
+    width: 200px;
+    margin-top: 28px;
+    margin-right: 10px;
+    
+} 
+.header-icons a{
+    float: right;
+    margin-right: 15px;
+    color: brown;
+    text-decoration: none;
+    font-size: 14px;
+} 
+.header-icons .fa-th{
+    font-size: 20px;
+    margin-top: 5px;
+    color: gray;
+    margin-right: 20px;
+    cursor: pointer;
+    float: right;
+}
+.header-icons .fa-th:hover{
+    color: burlywood;
+
+}
+.header-icons .fa-bell{
+    width: 30px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 2px;
+    float: right;
+    cursor: pointer;
+}
+.header-icons .fa-bell:hover{
+    background-color: burlywood;
+}
+.google-search{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
+}
+.google-image img{
+    margin: 100px auto 10px;
+    width: 250px;
+    cursor: pointer;
+    
+}
+.input-group{
+    margin: 13px auto 10px;
+    border-radius: 20px;
+    max-width: 550px;
+    background-color:ghostwhite
+}
+.form-control{
+    border: none !important;
+    border-radius: 20px !important;
+    background-color: ghostwhite !important;
+}
+.input-group-text{
+    background-color: transparent !important;
+    border: none !important;
+}
+.input-group .fa-microphone{
+    color: blue !important;
+    cursor: pointer !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+.bookmarks{
+    width: 400px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute; 
+    line-height: 10px;
+   
+
+    
+}
+.col-md-4{
+    width: 120px !important;
+    padding: none !important;
+}
+.site{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+.site:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.site p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    
+}
+.site .fa{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(199, 186, 186);
+    font-size: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 35px;
+    padding-top: 12px;
+}
+.fa-envelope-o{
+    color: brown;
+}
+.fa-facebook-square{
+    color: rgb(41, 41, 241);
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-youtube-play{
+    color: red;
+}
+.fa-instagram{
+    color: brown;
+}
